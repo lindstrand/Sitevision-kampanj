@@ -1,0 +1,31 @@
+{
+  "name": "sitevision-kampanjlank",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sitevision/api": "^2026.9.2",
+    "@sitevision/sitevision-scripts": "^8.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "scripts": {
+    "build": "sitevision-scripts build",
+    "sign": "sitevision-scripts sign",
+    "dev": "sitevision-scripts dev",
+    "setup-dev-properties": "sitevision-scripts setup-dev-properties",
+    "check": "node scripts/check-version.mjs && node scripts/security-check.mjs",
+    "prebuild": "npm run check",
+    "presign": "npm run check"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@sitevision/eslint-config-recommended"
+    ]
+  },
+  "prettier": {},
+  "postcss": {
+    "plugins": [
+      "autoprefixer"
+    ]
+  }
+}
