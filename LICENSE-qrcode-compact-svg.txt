@@ -1,0 +1,8 @@
+qrcode-compact-svg v1.1.0
+https://github.com/udwarf/qrcode-compact-svg
+
+Licensed under the MIT License.
+The bundled distribution identifies itself as:
+"qrcode-compact-svg v1.1.0 | https://github.com/udwarf/qrcode-compact-svg | MIT license"
+
+The word "QR Code" is a registered trademark of DENSO WAVE INCORPORATED.
