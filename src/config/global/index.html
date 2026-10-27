@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+  <div class="panel-heading"><h3 class="panel-title">Skapa kampanjlänk – globala inställningar</h3></div>
+  <div class="panel-body">
+    <fieldset>
+      <legend>Domänregler</legend>
+      <p class="help-block">Reglerna används när kampanjlänken skapas. Ange ett domännamn per rad, utan <code>https://</code> och utan sökväg.</p>
+
+      <div class="form-group">
+        <label for="wwwRequiredDomains">Domäner som alltid ska använda www</label>
+        <textarea class="form-control" id="wwwRequiredDomains" name="wwwRequiredDomains" rows="5" placeholder="exempel.se"></textarea>
+        <p class="help-block">Exempel: <code>exempel.se</code> gör att både <code>exempel.se</code> och <code>www.exempel.se</code> blir <code>www.exempel.se</code>.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="wwwRemovedDomains">Domäner där www ska tas bort</label>
+        <textarea class="form-control" id="wwwRemovedDomains" name="wwwRemovedDomains" rows="5" placeholder="exempel.se"></textarea>
+        <p class="help-block">Exempel: <code>exempel.se</code> gör att <code>www.exempel.se</code> blir <code>exempel.se</code>. Okända domäner lämnas oförändrade.</p>
+      </div>
+
+      <p class="help-block"><strong>Obs:</strong> Lägg inte samma domän i båda listorna. Regeln ”alltid www” har företräde om det ändå skulle ske.</p>
+    </fieldset>
+  </div>
+</div>
