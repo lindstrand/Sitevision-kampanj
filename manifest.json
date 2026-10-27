@@ -1,0 +1,19 @@
+{
+  "id": "hassleholmCampaignLinkGenerator",
+  "version": "1.0.0",
+  "type": "WebApp",
+  "name": {
+    "sv": "Skapa kampanjlänk",
+    "en": "Campaign link generator"
+  },
+  "description": {
+    "sv": "Skapar UTM-länkar och QR-koder för kampanjmätning.",
+    "en": "Creates UTM links and QR codes for campaign measurement."
+  },
+  "author": "Hässleholms kommun",
+  "bundled": true,
+  "maxUploadSizeInMB": 0,
+  "requiredLibs": {
+    "react": "18.3.1"
+  }
+}
