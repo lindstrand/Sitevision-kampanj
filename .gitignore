@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.dev_properties.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+*.der
+*.jks
+*.keystore
+.DS_Store
+Thumbs.db
